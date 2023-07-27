@@ -1,0 +1,28 @@
+<ul class="list-group">
+  <li
+    *ngFor="let item of post"
+    class="list-group-item w-25 mx-auto my-2 border-dark border-2 rounded"
+    [ngClass]="{
+      'text-bg-info': item.type === 'news',
+      'text-bg-success': item.type === 'politic',
+      'text-bg-danger': item.type === 'education'
+    }"
+  >
+    <p>
+      {{ item.id }})
+      <span>
+        {{ item.title }}
+      </span>
+    </p>
+    <p>
+      {{ item.body }}
+    </p>
+    <app-button
+      [testo]="'Disattiva'"
+      [id]="item.id"
+      [active]="item.active"
+      (onRefresh)="refreshPost($event)"
+    >
+    </app-button>
+  </li>
+</ul>

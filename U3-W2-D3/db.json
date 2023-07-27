@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "type": "news",
+      "title": "Post 1",
+      "body": "Descrizione del post 1.",
+      "active": true
+    },
+    {
+      "id": 2,
+      "type": "politic",
+      "title": "Post 2",
+      "body": "Descrizione del post 2.",
+      "active": true
+    },
+    {
+      "id": 3,
+      "type": "education",
+      "title": "Post 3",
+      "body": "Descrizione del post 3.",
+      "active": false
+    },
+    {
+      "id": 4,
+      "type": "news",
+      "title": "Post 4",
+      "body": "Descrizione del post 4.",
+      "active": false
+    },
+    {
+      "id": 5,
+      "type": "politic",
+      "title": "Post 5",
+      "body": "Descrizione del post 5.",
+      "active": true
+    },
+    {
+      "id": 6,
+      "type": "education",
+      "title": "Post 6",
+      "body": "Descrizione del post 6.",
+      "active": false
+    },
+    {
+      "id": 7,
+      "type": "news",
+      "title": "Post 7",
+      "body": "Descrizione del post 7.",
+      "active": false
+    },
+    {
+      "id": 8,
+      "type": "politic",
+      "title": "Post 8",
+      "body": "Descrizione del post 8.",
+      "active": true
+    },
+    {
+      "id": 9,
+      "type": "education",
+      "title": "Post 9",
+      "body": "Descrizione del post 9.",
+      "active": false
+    },
+    {
+      "id": 10,
+      "type": "news",
+      "title": "Post 10",
+      "body": "Descrizione del post 10.",
+      "active": true
+    }
+  ]
+}
